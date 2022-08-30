@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#principal{
+    background-color: aqua;
+    color: rgb(29, 33, 63);
+}
+ 
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(59, 59, 228);
+}
+main{background-color: white;
+    border-radius: 10px; 
+    padding: auto;
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}

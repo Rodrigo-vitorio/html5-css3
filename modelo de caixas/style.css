@@ -1,0 +1,14 @@
+@charset "UTTF-8";
+
+h1{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(70, 139, 76);
+    padding: 9px;
+    
+}
+a{
+    border: 3px double lightblue;
+  
+}

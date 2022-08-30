@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: rgb(98, 0, 255);
+    text-decoration: none;
+}
+
+a::after{
+    content:" [Link]";
+}
+a:active{
+    color: rgb(187, 255, 0);
+}
+a:visited{
+    color: darkblue;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}

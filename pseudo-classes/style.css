@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+ div#primeiro:hover{
+    background-color: rgb(18, 182, 18);
+}
+div#segundo:hover{
+    background-color: yellow;
+}
+div#terceiro:hover{
+    background-color: red;
+}
