@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Testando formularios</h1>
+    <form  method="post">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#0353A4">
+        </p>
+        <p>
+                <label for="isat">Nivel de satisfação</label>
+                <input type="range" name="sat" id="isat" min="1" max="5">
+        </p>
+        <p>
+                <label for="ipic">Foto do perfil</label>
+                <input type="file" name="pic" id="ipic">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
