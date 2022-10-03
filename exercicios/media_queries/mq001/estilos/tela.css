@@ -10,6 +10,7 @@ html{
 }
 header{
     background-color: rgb(87, 192, 169);
+    
 }
 header h1{
     text-align: center;
@@ -17,9 +18,14 @@ header h1{
 }
 ul{
     background-color:rgb(69, 151, 133); 
-    padding: 10px;
 }
 li{
     display: inline-block;
-    
+    padding: 10px;
+}
+article{
+    padding: 10px;
+    max-width: 600px;
+    display: block;
+    margin: auto;
 }

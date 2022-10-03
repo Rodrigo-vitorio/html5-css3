@@ -1,2 +1,14 @@
 @charset "UTF-8";
 /* impressora*/
+
+*{
+    padding: 0px;
+    margin: 0px;}
+
+    html{
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.5em;
+    }
+menu{
+    display: none;
+}
