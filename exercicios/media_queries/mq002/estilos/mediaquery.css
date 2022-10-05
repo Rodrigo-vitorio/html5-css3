@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@media print{
+    img#tv{
+        display: none;
+    }
+    img#telefone{
+        display: none;
+    }
+    img#desktop{
+        display: none;
+    }
+    img#impressao{
+        display: block;
+    }
+    img#tablet{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+   body{
+    background-image: url(../imagens/back-tablet.jpg);
+   }
+   img#tv{
+    display: none;
+}
+img#telefone{
+    display: none;
+}
+img#desktop{
+    display: none;
+}
+img#impressao{
+    display: none;
+}
+img#tablet{
+    display: block;
+}
+}    
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#tv{
+        display: none;
+    }
+    img#telefone{
+        display: none;
+    }
+    img#desktop{
+        display: block;
+    }
+    img#impressao{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+}
+
+@media  screen and (min-width:1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#tv{
+        display: block;
+    }
+    img#telefone{
+        display: none;
+    }
+    img#desktop{
+        display: none;
+    }
+    img#impressao{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+}
